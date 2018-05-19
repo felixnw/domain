@@ -1,0 +1,81 @@
+body {
+  font-family: "Roboto", Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.5em;
+  color: black;
+  margin: 0px;
+  height: 100%;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+nav {
+  width: 100%;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.3);
+  font-size: 1.5em;
+  line-height: 2em;
+  font-family: "Oswald", sans-serif;
+}
+
+.nav1 {
+    padding-left: 2em;
+    display: inline-block;
+}
+
+.active {
+  display: inline-block;
+}
+
+.nav2 {
+  text-align: right;
+  display: inline-block;
+  width: 90%;
+  position: relative;
+}
+
+.background {
+  width: 100%;
+  background-color: black;
+  background-image: url(../img/background2.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.title {
+  font-family: "Oswald", sans-serif;
+  color: white;
+  text-align: center;
+  margin-top: 35vh;
+  font-size: 5vh;
+  line-height: 3vh;
+}
+
+.details {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  padding-right: 1em;
+}
+
+nav a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover{
+  text-decoration: underline;
+  color: orange;
+}
+
+.active a{
+  text-decoration: underline;
+}
