@@ -13,7 +13,6 @@ body {
 }
 
 nav {
-  width: 100%;
   background-color: black;
   background-color: rgba(0, 0, 0, 0.3);
   font-size: 1.5em;
@@ -22,7 +21,8 @@ nav {
 }
 
 .nav1 {
-    padding-left: 2em;
+    width: 50%;
+    padding-left: 1em;
     display: inline-block;
 }
 
@@ -33,7 +33,7 @@ nav {
 .nav2 {
   text-align: right;
   display: inline-block;
-  width: 90%;
+  width: 47%;
   position: relative;
 }
 
@@ -71,11 +71,55 @@ nav a:visited {
   color: white;
 }
 
-nav a:hover{
-  text-decoration: underline;
+nav a:hover {
   color: orange;
 }
 
-.active a{
+.active a {
   text-decoration: underline;
+}
+
+.aboutpic {
+  background-color: grey;
+  background-image: url(../img/about.jpg);
+  background-size: cover;
+  display: grid;
+  line-height: 5vh;
+  font-family: "Oswald", sans-serif;;
+  padding-bottom: 2vw;
+  color: white;
+}
+
+.portfoliopic {
+  background-color: grey;
+  background-image: url(../img/background.jpg);
+  background-size: cover;
+  display: grid;
+  line-height: 5vh;
+  font-family: "Oswald", sans-serif;;
+  padding-bottom: 2vw;
+  color: white;
+}
+
+
+.pagetitle {
+    padding-top: 2vw;
+    font-size: 2em;
+    text-align: center;
+}
+
+.fontposter {
+  width: 30%;
+}
+
+.beijingposter {
+  width: 30%;
+}
+
+.monogram {
+  width: 30%;
+}
+
+.label {
+  width: 30%;
 }
