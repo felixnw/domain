@@ -1,7 +1,10 @@
-/* use a more intuitive box sizing model (http://is.gd/wNVjAo) */
-* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
-
-
+/* Box size fix: https://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 
 body {
   font-family: "Roboto", Helvetica, sans-serif;
