@@ -1,3 +1,8 @@
+/* use a more intuitive box sizing model (http://is.gd/wNVjAo) */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
+
 body {
   font-family: "Roboto", Helvetica, sans-serif;
   font-size: 16px;
@@ -40,7 +45,7 @@ nav {
 .background {
   width: 100%;
   background-color: black;
-  background-image: url(../img/background2.jpg);
+  background-image: url(../img/background.jpg);
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -90,6 +95,17 @@ nav a:hover {
   color: white;
 }
 
+.aboutbox {
+  background-color: rgb(120, 158, 214);
+  margin-left: 7vw;
+  margin-right: 7vw;
+  margin-top: 3%;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  padding-right: 5em;
+  padding-left: 5em;
+}
+
 .portfoliopic {
   background-color: grey;
   background-image: url(../img/background.jpg);
@@ -122,4 +138,40 @@ nav a:hover {
 
 .label {
   width: 30%;
+}
+
+.story {
+  width: 30%;
+}
+
+.conference {
+  width: 30%;
+}
+
+@media (max-width: 700px) {
+
+  .nav1 {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding-left: 0em;
+  }
+
+  .nav2 {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  nav a {
+    padding-right: 0.5em;
+  }
+
+  .aboutbox {
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+
 }
