@@ -210,6 +210,19 @@ nav a:hover {
   width: 50%;
 }
 
+.webgrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+  justify-items: center;
+}
+
+.projectstory {
+  background-image: url(../portfolio/story.png);
+  min-height: 200px;
+  max-width: 200px;
+  background-size: contain;
+}
+
 @media (max-width: 700px) {
 
   .nav1 {
