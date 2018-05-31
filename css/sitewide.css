@@ -152,7 +152,6 @@ nav a:hover {
 .header {
   font-size: 3em;
   padding-left: 3em; 
-  /* text-align: center; */
   font-family: "Oswald", sans-serif;
   padding-bottom: 1em;
   border-bottom: 1px solid;
@@ -242,11 +241,24 @@ nav a:hover {
     padding-right: 0.5em;
   }
 
-  .aboutbox {
-    /* margin-left: 0%;
-    margin-right: 0%;
-    display: block; */
+  .web {
+    display: block;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
 
+  .print {
+    display: block;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+
+  .header {
+    text-align: center;
+    padding-left: 0em;
+  }
+
+  .aboutbox {
     padding-left: 1em;
     padding-right: 1em;
     padding-top: 1em;
