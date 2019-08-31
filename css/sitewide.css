@@ -140,6 +140,7 @@ h2 {
   color: white;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .footer {
@@ -166,7 +167,7 @@ h2 {
   }
 
   .navlinks {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
   }
 
@@ -186,19 +187,26 @@ h2 {
   .profile {
     max-width: 25%;
     float: right;
-    margin-right: 10%;
+    margin-right: 7%;
   }
 
   .headtext {
     float: left;
     max-width: 50%;
-    margin-left: 1em;
+    margin-left: 2.25em;
     margin-top: 2em;
   }
 
   .iconlinks {
     clear: both;
-    margin-left: 2.5em;
+    margin-left: 2.9em;
+  }
+
+  .hero {
+    max-height: 50vh;
+    width: 100%;
+    object-fit: cover;
+    object-position: 50% 30%;
   }
 
   .tiles {
@@ -214,6 +222,14 @@ h2 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     /* grid-template-columns: repeat(auto-fit, minmax(330px, 1fr)); */
+  }
+
+  .headtext {
+    margin-left: 1em;
+  }
+
+  .iconlinks {
+    margin-left: 2.5em;
   }
 
 }
