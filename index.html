@@ -10,6 +10,7 @@
 
       gtag('config', 'UA-121910954-2');
     </script>
+    
     <meta charset="utf-8">
     <title>Felix Doll</title>
     <meta name="author" content="Felix Doll">
@@ -23,11 +24,23 @@
   <body>
     <div class="container">
 
+      <div id="navscreen" class="navscreen">
+        <nav class="mobnav">
+          <a href="/index.html">Felix Doll</a>
+          <button class="close" href=><i class="material-icons">close</i></button>
+        </nav>
+        <div>
+          <a class= navscreenlinks href="index.html#digital" onclick="navToggle();">Digital</a> <br>
+          <a class= navscreenlinks href="index.html#physical" onclick="navToggle();">Physical</a> <br>
+          <a class= navscreenlinks href="about.html">About</a>
+        </div>
+      </div>
+
       <div class="header">
 
         <nav class="mobnav">
           <a href="/index.html">Felix Doll</a>
-          <a class="icon" href=><i class="material-icons">menu</i></a>
+          <button class="icon"><i class="material-icons">menu</i></button>
         </nav>
 
         <nav class="nav">
@@ -110,4 +123,7 @@
 
     </div>
   </body>
+
+  <script src="scripts.js"></script>
+
 </html>

@@ -10,6 +10,7 @@
 
       gtag('config', 'UA-121910954-2');
     </script>
+    <script src="scripts.js"></script>
     <meta charset="utf-8">
     <title>About: Felix Doll</title>
     <meta name="author" content="Felix Doll">
@@ -25,16 +26,30 @@
 
       <div class="header">
 
-        <nav class="mobnav">
-          <a href="/index.html">Felix Doll</a>
-          <a class="icon" href=><i class="material-icons">menu</i></a>
-        </nav>
+        <div id="navscreen" class="navscreen">
+            <nav class="mobnav">
+              <a href="/index.html">Felix Doll</a>
+              <button class="close" href=><i class="material-icons">close</i></button>
+            </nav>
+            <div>
+              <a class= navscreenlinks href="index.html#digital" onclick="navToggle();">Digital</a> <br>
+              <a class= navscreenlinks href="index.html#physical" onclick="navToggle();">Physical</a> <br>
+              <a class= navscreenlinks href="about.html">About</a>
+            </div>
+          </div>
+    
+          <div class="header">
+    
+            <nav class="mobnav">
+              <a href="/index.html">Felix Doll</a>
+              <button class="icon"><i class="material-icons">menu</i></button>
+            </nav>
 
         <nav class="nav">
             <a href="index.html">Felix Doll</a>
             <div class="navlinks">
-              <a href="#digital">Digital</a>
-              <a href="#physical" class="navlink">Physical</a>
+              <a href="index.html#digital">Digital</a>
+              <a href="index.html#physical" class="navlink">Physical</a>
               <a href="about.html" class="navlink">About</a>
             </div>
         </nav>
@@ -43,8 +58,10 @@
         <img class="hero" src="img/hero.jpg" alt="Felix climbing outdoors">
 
       </div>
-
-      <p>I'm Felix Doll. I am a college student at American University, and spend my summers in Seattle. I've long been interested in photography, technology, and design. I've spent a number of years honing my eye for detail in my photography, as well as my design, and computer skills. I'm currently studying Graphic Design and Computer Science at American University in Washington DC, as a way to combine my skills and interests. You can contact me at contact(at)felixdoll.net.</p>
+      <div class="about">
+      <h2>About Me</h2>
+        <p>I'm Felix Doll. I am a college student at American University, and spend my summers in Seattle. I've long been interested in photography, technology, and design. I've spent a number of years honing my eye for detail in my photography, as well as my design, and computer skills. I'm currently studying Graphic Design and Computer Science at American University in Washington DC, as a way to combine my skills and interests. You can contact me at contact(at)felixdoll.net.</p>
+      </div>
 
       <div class="footer">
           <p>© 2019 Felix Doll</p>
@@ -56,4 +73,6 @@
 
     </div>
   </body>
+  <script src="scripts.js"></script>
+
 </html>

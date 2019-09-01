@@ -57,6 +57,29 @@ h2 {
   display: none;
 }
 
+.navscreen {
+  position: fixed;
+  background-color: #F2F2F2;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  visibility: hidden;
+}
+
+.shownavscreen {
+  visibility: visible;
+  /* transition:  */
+}
+
+.navscreenlinks {
+  text-decoration: none;
+  color: #333;
+  font-size: 36px;
+  line-height: 2em;
+  text-align: center;
+}
+
 .profile {
   border-radius: 50%;
   width: 50%;
@@ -71,6 +94,12 @@ h2 {
 
 .github {
   margin-right: 0.75em;
+}
+
+.about {
+  margin-left: 2em;
+  margin-right: 2em;
+
 }
 
 .nca {
