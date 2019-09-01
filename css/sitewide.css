@@ -69,7 +69,20 @@ h2 {
 
 .shownavscreen {
   visibility: visible;
-  /* transition:  */
+}
+
+.icon {
+  border: none;
+  background: none;
+}
+
+.close {
+  border: none;
+  background: none;
+}
+
+.nslbox {
+  padding-top: 10vh;
 }
 
 .navscreenlinks {
@@ -78,6 +91,7 @@ h2 {
   font-size: 36px;
   line-height: 2em;
   text-align: center;
+  display: inherit;
 }
 
 .profile {
@@ -138,6 +152,15 @@ h2 {
   align-items: center;
 }
 
+.portfolio {
+  background-color: #BB6BD9;
+  width: 100%;
+  padding: 2em;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
 .avenir {
   background-color: #EB5757;
   width: 100%;
@@ -163,7 +186,7 @@ h2 {
 }
 
 .monogram {
-  background-color: #BB6BD9;
+  background-color: #2D9CDB;
   width: 100%;
   padding: 2em;
   color: white;
