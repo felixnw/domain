@@ -261,6 +261,22 @@ h2 {
     object-position: 50% 30%;
   }
 
+  .about {
+    display: grid;
+    grid-template-columns: 0.25fr 1fr 1.25fr .75fr;
+  }
+
+  .abouttitle {
+    grid-column: 2/3;
+    text-align: center;
+  }
+
+  .abouttext {
+    margin-top: 2em;
+    grid-column: 3/4;
+    font-size: 18px;
+  }
+
   .tiles {
     display: grid;
     grid-template-columns: 1fr 1fr;
