@@ -37,11 +37,16 @@ h2 {
   margin: 0em;
 }
 
+.header4nca {
+  background-color: #2F80ED;
+}
+
 .mobnav {
   font-size: 24px;
   font-weight: bold;
   padding-top: 1em;
-  padding-bottom: 2em;
+  padding-bottom: 1em;
+  margin-bottom: 1em;
   margin-right: 1em;
   margin-left: 1em;
   display: flex;
@@ -76,6 +81,12 @@ h2 {
   background: none;
 }
 
+.icon.itemicon {
+  border: none;
+  background: none;
+  color: white;
+}
+
 .close {
   border: none;
   background: none;
@@ -92,6 +103,14 @@ h2 {
   line-height: 2em;
   text-align: center;
   display: inherit;
+}
+
+.nav.itemnav a {
+  color: white;
+}
+
+.mobnav.itemmobnav a {
+  color: white;
 }
 
 .profile {
@@ -114,6 +133,11 @@ h2 {
   margin-left: 2em;
   margin-right: 2em;
 
+}
+
+.itemtext {
+  margin-bottom: 1.5em;
+  margin-top: 1em;
 }
 
 .nca {
@@ -176,6 +200,11 @@ h2 {
   margin: auto;
 }
 
+.tilelink {
+  text-decoration: none;
+  color: white;
+}
+
 .pasta {
   background-color: #6FCF97;
   width: 100%;
@@ -195,6 +224,15 @@ h2 {
   justify-content: center;
 }
 
+.iteminfo {
+  margin-right: 2em;
+  margin-left: 2em;
+}
+
+.itemtitle {
+  text-align: center;
+}
+
 .footer {
   padding-top: 1em;
   padding-bottom: -1em;
@@ -211,7 +249,8 @@ h2 {
     font-size: 24px;
     font-weight: bold;
     padding-top: 1em;
-    padding-bottom: 2em;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
     margin-right: 2em;
     margin-left: 2em;
     display: flex;
@@ -254,6 +293,10 @@ h2 {
     margin-left: 2.9em;
   }
 
+  .itemtitle {
+    text-align: left;
+  }
+
   .hero {
     max-height: 50vh;
     width: 100%;
@@ -280,6 +323,26 @@ h2 {
   .tiles {
     display: grid;
     grid-template-columns: 1fr 1fr;
+  }
+
+  .iteminfo {
+    display: grid;
+    grid-template-columns: 1fr 0.25fr 1fr;
+  }
+
+  .itemdesktop {
+    grid-column: 1/2;
+  }
+
+  .itemtext {
+    grid-column: 1/2;
+  }
+
+  .itemmobile {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    max-height: 600px;
+    justify-self: center;
   }
 
 }
